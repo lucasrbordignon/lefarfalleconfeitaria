@@ -113,7 +113,7 @@ export const data: TRestaurant[] = [
             ],
             "imageUrl": "https://s2-receitas.glbimg.com/Pya3NoS53nN_bY1P986EbDt-99E=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2024/u/j/LgDADlTuaDlb9epVtMvw/mousse-de-leite-ninho-com-nutella.jpg",
             "bestSeller": false
-          },
+          },          
           {
             "id": "7",
             "name": "Leite Ninho com uvas s/sementes",
@@ -126,6 +126,34 @@ export const data: TRestaurant[] = [
               }
             ],
             "imageUrl": "https://cdn0.tudoreceitas.com/pt/posts/8/2/9/copo_da_felicidade_de_uva_verde_11928_600.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "8",
+            "name": "Cream cheese (geléia opcional)",
+            "ingredients": "Cream cheese com a geléia da sua preferência.",
+            "description": "Experimente a combinação irresistível de um recheio cremoso de cream cheese com a sua geléia favorita. A suavidade e o sabor rico do cream cheese harmonizam perfeitamente com o toque doce e frutado da geléia, criando uma explosão de sabores a cada mordida. Perfeito para quem busca um toque sofisticado e delicioso no seu bolo.",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 80.00
+              }
+            ],
+            "imageUrl": "https://vitat.com.br/receitas/images/recipeshandler.jpg?id=4521&tipo=r&default=s&ims=fit-in/414x275/filters:quality(60)",
+            "bestSeller": false
+          },
+          {
+            "id": "9",
+            "name": "Tropical (recheio de leite ninho c/ frutas)",
+            "ingredients": "Creme suave de Leite Ninho com frutas.",
+            "description": "Desfrute do sabor exótico do recheio Tropical, que combina a cremosidade do leite Ninho com pedaços suculentos de frutas frescas. Cada mordida traz a doçura e a leveza do leite, complementadas pela frescura vibrante das frutas, criando uma experiência única e deliciosa para o seu bolo. Perfeito para quem procura um toque tropical e refrescante.",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 80.00
+              }
+            ],
+            "imageUrl": "https://vitat.com.br/receitas/images/recipeshandler.jpg?id=4521&tipo=r&default=s&ims=fit-in/414x275/filters:quality(60)",
             "bestSeller": false
           },
         ]

@@ -14,7 +14,8 @@ const nextConfig = {
       "revistadestaquemais.com.br",
       "www.mavalerio.com.br",
       "s2-receitas.glbimg.com",
-      "cdn0.tudoreceitas.com"
+      "cdn0.tudoreceitas.com",
+      "vitat.com.br"
     ],
   },
 };
