@@ -127,7 +127,7 @@ const Dish = (props: IDishes) => {
 export default Dish;
 
 export async function getStaticPaths() {
-  const restaurant = data;
+  const restaurant = await data.data;
 
   const sections = [];
   restaurant[0]?.sections.map((section) =>
@@ -145,7 +145,7 @@ export async function getStaticProps(context) {
   const { params } = context;
   const slug = params.id;
   
-  const dish = getItemById(data.data, slug)
+  const dish = await getItemById(data.data, slug)
 
   return {
     props: {
