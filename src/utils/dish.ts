@@ -72,6 +72,62 @@ export const data: TRestaurant[] = [
             "imageUrl": "https://docescaseirospaulinho.com.br/wp-content/uploads/2021/11/doces-caseiros-paulinho-doce-de-leite-com-ameixa-001-1.jpg",
             "bestSeller": false
           },
+          {
+            "id": "4",
+            "name": "Leite Ninho com morango",
+            "ingredients": "Creme suave de Leite Ninho com pedaços frescos de morango.",
+            "description": "Leite Ninho com Morango é uma combinação deliciosa de creme suave de Leite Ninho com pedaços frescos de morango. A cremosidade do leite se mistura perfeitamente com a doçura e o toque refrescante dos morangos, criando um doce irresistível e equilibrado.",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 80.00
+              }
+            ],
+            "imageUrl": "https://revistadestaquemais.com.br/wp-content/uploads/2019/08/DSC_0192.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "5",
+            "name": "Leite Ninho com geléia",
+            "ingredients": "Creme suave de Leite Ninho com a geléia da sua preferência.",
+            "description": "Desfrute da cremosidade irresistível do Leite Ninho combinada com a sua geléia preferida. Seja morango, framboesa, ou outra de sua escolha, a mistura cria um doce perfeito, onde a suavidade do Leite Ninho encontra o sabor frutado e vibrante da geléia, proporcionando uma experiência única e deliciosa.",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 80.00
+              }
+            ],
+            "imageUrl": "https://www.mavalerio.com.br/wp-content/uploads/2021/06/11-bolo-no-pote-de-morango-005-min-500x340.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "6",
+            "name": "Leite Ninho com creme de avelã",
+            "ingredients": "Creme suave de Leite Ninho com creme de avelã.",
+            "description": "Delicie-se com a combinação perfeita de Leite Ninho e creme de avelã. A suavidade e cremosidade do Leite Ninho se unem ao sabor rico e intenso do creme de avelã, criando um doce irresistível e sofisticado. ",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 80.00
+              }
+            ],
+            "imageUrl": "https://s2-receitas.glbimg.com/Pya3NoS53nN_bY1P986EbDt-99E=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2024/u/j/LgDADlTuaDlb9epVtMvw/mousse-de-leite-ninho-com-nutella.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "7",
+            "name": "Leite Ninho com uvas s/sementes",
+            "ingredients": "Creme suave de Leite Ninho com uvas s/ sementes.",
+            "description": "Experimente a deliciosa combinação de Leite Ninho com uvas sem sementes. A cremosidade suave do Leite Ninho se harmoniza perfeitamente com a doçura e a textura suculenta das uvas, criando um doce refrescante e irresistível.",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 80.00
+              }
+            ],
+            "imageUrl": "https://cdn0.tudoreceitas.com/pt/posts/8/2/9/copo_da_felicidade_de_uva_verde_11928_600.jpg",
+            "bestSeller": false
+          },
         ]
       },
       // {
