@@ -329,6 +329,24 @@ export const data: TRestaurant[] = [
             "imageUrl": "https://i.ytimg.com/vi/i3LHmRv6PwY/maxresdefault.jpg",
             "bestSeller": false
           },
+          {
+            "id": "22",
+            "name": "Amanteigada: Chocolate",
+            "ingredients": "Farinha de trigo, açúcar, manteiga, ovos, cacau em pó, fermento em pó e leite.",
+            "description": "A massa de bolo amanteigada de chocolate é rica e úmida, com um sabor profundo e intenso de chocolate. A combinação de manteiga, ovos e leite cria uma textura macia e fofa, enquanto o chocolate em pó ou cacau em pó adiciona a característica marcante do chocolate. Ideal para amantes de chocolate, essa massa é perfeita para bolos de aniversário ou qualquer ocasião especial.",
+            "prices": [],
+            "imageUrl": "https://i.ytimg.com/vi/RKz7FAwvFCs/maxresdefault.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "23",
+            "name": "Amanteigada: Baunilha",
+            "ingredients": "Farinha de trigo, açúcar, manteiga, ovos, leite, fermento em pó e essência de baunilha.",
+            "description": "A massa de bolo amanteigada de baunilha é clássica e versátil, conhecida por sua textura macia e sabor delicado de baunilha. A manteiga e os ovos proporcionam uma base rica e úmida, enquanto a essência de baunilha confere um aroma e sabor sutis e agradáveis. Esta massa é excelente para bolos simples, cobertos com glacê ou acompanhados de frutas e cremes.",
+            "prices": [],
+            "imageUrl": "https://4.bp.blogspot.com/-P6YQDTpskAE/Wum2TH8TkJI/AAAAAAAAMzc/Z9j85LQvm6glud5EudEu9mOxRfbQc2k8QCLcBGAs/w1200-h630-p-k-no-nu/massa-de-bolo%2B%25281%2529.jpg",
+            "bestSeller": false
+          },
         ]
       }
     ]

@@ -27,7 +27,8 @@ const nextConfig = {
       "i.panelinha.com.br",
       "receitinhas.com.br",
       "cooknenjoy.com",
-      "i.ytimg.com"
+      "i.ytimg.com",
+      "4.bp.blogspot.com"
     ],
   },
 };
