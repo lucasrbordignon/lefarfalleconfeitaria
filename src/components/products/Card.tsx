@@ -12,6 +12,7 @@ export const PlateCard = ({
   id,
   name,
   ingredients,
+  und,
   prices,
   imageUrl,
   bestSeller,
@@ -71,7 +72,7 @@ export const PlateCard = ({
           {prices.map(({ name, price }: TPriceOption, idx) => (
             <Paragraph key={`${name}-${price}-${idx}`}>
               {handlePriceName(name)}
-              <span style={{ color: token.colorTextSecondary }}>{price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })} Kg</span>
+              <span style={{ color: token.colorTextSecondary }}>{price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })} {und}</span>
             </Paragraph>
           ))}
         </div>

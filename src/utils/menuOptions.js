@@ -1,6 +1,7 @@
 import {
   IconBowl,
-  IconCake
+  IconBrandCakephp,
+  IconCandy
 } from "@tabler/icons-react";
 
 export const menuOptions = [
@@ -11,7 +12,12 @@ export const menuOptions = [
   },
   {
     key: "massas",
-    icon: <IconCake size={32} />,
+    icon: <IconBrandCakephp size={32} />,
     label: <a href="#massas">Massas</a>,
+  },
+  {
+    key: "doces",
+    icon: <IconCandy size={32} />,
+    label: <a href="#doces">Doces</a>,
   },
 ];

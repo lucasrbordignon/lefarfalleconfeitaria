@@ -18,6 +18,7 @@ export type TMenuItem = {
   name: string;
   ingredients: string;
   description: string;
+  und: string;
   prices: TPriceOption[];
   imageUrl: string;
   bestSeller: boolean;
