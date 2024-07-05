@@ -14,7 +14,7 @@ export const data: TRestaurant[] = [
     "sections": [
       {
         "name": "Recheios",
-        "description": "É sobre fazer parte dos momentos mais importantes, sobre eternizar sabores e memórias.",
+        "description": "Você pode incluir dois recheios no seu bolo mas lembre-se será cobrado valor do recheio mais caro no total.",
         "items": [
           {
             "id": "0",
@@ -153,59 +153,184 @@ export const data: TRestaurant[] = [
                 "price": 80.00
               }
             ],
-            "imageUrl": "https://vitat.com.br/receitas/images/recipeshandler.jpg?id=4521&tipo=r&default=s&ims=fit-in/414x275/filters:quality(60)",
+            "imageUrl": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/6d095c02a568b053940d03519bc54216.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "10",
+            "name": "Creme Belga com Pêssego",
+            "ingredients": "Delicioso Creme Belga com pedaços de pêssegos.",
+            "description": "A textura aveludada e o sabor sofisticado do creme belga se misturam harmoniosamente com a doçura e a leveza dos pêssegos, proporcionando uma experiência gastronômica inesquecível em cada fatia de bolo. Perfeito para momentos especiais e celebrações.",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 75.00
+              }
+            ],
+            "imageUrl": "https://cdn.portalrva.com.br/wp-content/uploads/2021/10/creme-pessego.png",
+            "bestSeller": false
+          },
+          {
+            "id": "11",
+            "name": "Creme Belga com Abacaxi",
+            "ingredients": "Delicioso Creme Belga com pedaços de abacaxi.",
+            "description": "A textura suave e cremosa do creme belga se encontra com a doçura e a acidez refrescante do abacaxi, criando uma combinação perfeita de sabores e sensações. Ideal para transformar qualquer bolo em uma verdadeira obra-prima.",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 75.00
+              }
+            ],
+            "imageUrl": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/pave-de-abacaxi-no-copinho-47488.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "12",
+            "name": "Creme Belga com Morango",
+            "ingredients": "Delicioso Creme Belga com pedaços de morango.",
+            "description": "Aveludado e suave, o creme belga se mistura harmoniosamente com a doçura e a leve acidez dos morangos frescos, proporcionando uma experiência única e irresistível a cada mordida. Perfeito para bolos que encantam e surpreendem.",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 75.00
+              }
+            ],
+            "imageUrl": "https://www.sabornamesa.com.br/media/k2/items/cache/a9890e385e3991d4a934a6f9e908db80_XL.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "13",
+            "name": "Mousse de Maracujá",
+            "ingredients": "Leve mousse aerado de Maracujá.",
+            "description": "A textura aerada e o sabor tropical e ligeiramente ácido do maracujá se combinam para criar uma experiência deliciosa e revigorante.",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 70.00
+              }
+            ],
+            "imageUrl": "https://static.itdg.com.br/images/360-240/8fed8f60d3c8e3990396e2478cbc7f2a/shutterstock-1905617575-1-.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "14",
+            "name": "Mousse de Limão",
+            "ingredients": "Leve mousse aerado de Limão.",
+            "description": "Com uma textura aerada e um sabor cítrico e revigorante, essa mousse proporciona uma experiência deliciosa e equilibrada.",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 70.00
+              }
+            ],
+            "imageUrl": "https://img.cybercook.com.br/receitas/145/mousse-de-limao-trufado-3.jpeg",
+            "bestSeller": false
+          },
+          {
+            "id": "15",
+            "name": "Mousse de Leite Ninho",
+            "ingredients": "Leve mousse aerado de Leite Ninho.",
+            "description": "Com uma textura leve e aerada, essa mousse traz o sabor clássico e irresistível do leite Ninho, proporcionando uma experiência doce e cremosa que vai encantar o paladar.",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 70.00
+              }
+            ],
+            "imageUrl": "https://cdn.casaeculinaria.com/wp-content/uploads/2023/03/05163747/Mousse-de-leite-ninho.webp",
+            "bestSeller": false
+          },
+          {
+            "id": "16",
+            "name": "Mousse de Chocolate",
+            "ingredients": "Leve mousse aerado de Chocolate.",
+            "description": "Com uma textura leve e aerada, essa mousse oferece o sabor rico e intenso do chocolate, criando uma experiência deliciosa e sofisticada. ",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 70.00
+              }
+            ],
+            "imageUrl": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/369562012750bd46ceaeef5d59a23229.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "17",
+            "name": "Floresta Negra",
+            "ingredients": "Leve creme de chantilly com cerejas.",
+            "description": "A suavidade e a doçura do chantilly se harmonizam perfeitamente com o sabor vibrante e ligeiramente ácido das cerejas. Ahh, e não se esqueça de escolher algumas de nossas massas de chocolate!!",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 70.00
+              }
+            ],
+            "imageUrl": "https://img.freepik.com/fotos-premium/delicioso-pave-de-chocolate-da-floresta-negra-com-cerejas-e-chantilly-em-uma-grande-tigela-de-vidro-guarnecido-com-chocolate-picado-cacau-em-po-e-bagas-sobremesa-decadente-indulgente_76014-390.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "18",
+            "name": "Prestígio",
+            "ingredients": "Leve cocada cremosa.",
+            "description": "A textura macia e o sabor doce do coco se misturam de forma perfeita, proporcionando uma experiência irresistível e indulgente. Ahh, e não se esqueça de escolher algumas de nossas massas de chocolate!!",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 70.00
+              }
+            ],
+            "imageUrl": "https://catracalivre.com.br/wp-content/uploads/2023/11/cocada-cremosa.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "19",
+            "name": "Brigadeiro 70% cacau",
+            "ingredients": "Leve Brigadeiro 70% cacau.",
+            "description": "Com uma textura suave e cremosa, esse brigadeiro oferece um sabor intenso e refinado de chocolate amargo, criando uma experiência gourmet e irresistível.",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 70.00
+              }
+            ],
+            "imageUrl": "https://i.panelinha.com.br/i1/228-bk-6392-blog-ayu1901.webp",
             "bestSeller": false
           },
         ]
       },
-      // {
-      //   "name": "Doces",
-      //   "description": "Medley of fresh, crisp and colorful ingredients harmoniously combined to create a dish that's both refreshing and nutritious.",
-      //   "items": [
-      //     {
-      //       "id": "6",
-      //       "name": "Caesar Salad",
-      //       "ingredients": "Romaine lettuce, parmeeesan cheese, croutons, aesar dressing, grilled chiken, bacon bits",
-      //       "description": "Caesar salad is a beloved classic known for its simple yet flavorful components. Caesar salad is a beloved classic known for its simple yet flavorful components. This salad is assembled by tossing the romaine lettuce with the Caesar dressing, Parmesan cheese, and croutons. It can be served as a starter or as a main dish with the addition of protein. The combination of fresh lettuce, savory dressing, and crunchy elements makes it a popular and satisfying choice for any meal.",
-      //       "prices": [
-      //         {
-      //           "name": "standard",
-      //           "price": 19.99
-      //         }
-      //       ],
-      //       "imageUrl": "https://img.freepik.com/free-photo/chicken-parmesan-caesar-salad-with-lettuce-cherry-tomatoes-inside-white-bowl-served-with-sauce-bread_114579-204.jpg?w=996&t=st=1685654701~exp=1685655301~hmac=d4f5e0e0843f2220c3d10250bbece26b7c426b7c13d88a210a8890bd924f6495",
-      //       "bestSeller": false
-      //     },
-      //     {
-      //       "id": "7",
-      //       "name": "Green Salad",
-      //       "ingredients": "Leaf lettuche, cucumbers, tomatoes, bell peppers, carrots, radishes, vinaigrette, creamy dreesing, salt, croutons, nuts, grated parmesan",
-      //       "description": "Green salad is a versatile and refreshing dish typically composed of various fresh greens and a medley of vegetables. Its versatility allows for endless variations, making it a flexible and nutritious accompaniment to a wide range of meals or as a standalone light dish.",
-      //       "prices": [
-      //         {
-      //           "name": "standard",
-      //           "price": 18.99
-      //         }
-      //       ],
-      //       "imageUrl": "https://images.unsplash.com/photo-1608032077018-c9aad9565d29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      //       "bestSeller": false
-      //     },
-      //     {
-      //       "id": "8",
-      //       "name": "Greek Salad",
-      //       "ingredients": "Tomatoes, cucumbers, red onion, bell peppers, feta cheese, kalamata olives, extra virgin olive oil, red wine vinegar, herbs.",
-      //       "description": "Greek salad is a classic dish celebrated for its vibrant colors and fresh Mediterranean flavors. The dressing, made with olive oil, vinegar, herbs, and seasonings, is then drizzled over the ingredients, creating a colorful and delectable dish known for its vibrant presentation and refreshing taste. It's a versatile side dish that perfectly complements various Mediterranean or grilled dishes.",
-      //       "prices": [
-      //         {
-      //           "name": "standard",
-      //           "price": 20.99
-      //         }
-      //       ],
-      //       "imageUrl": "https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      //       "bestSeller": true
-      //     }
-      //   ]
-      // }
+      {
+        "name": "Massas",
+        "description": "É sobre fazer parte dos momentos mais importantes, sobre eternizar sabores e memórias.",
+        "items": [
+          {
+            "id": "20",
+            "name": "Pão de ló: Chocolate",
+            "ingredients": "Ovos, açúcar, farinha de trigo, chocolate em pó e fermento em pó.",
+            "description": "Um delicado e aerado pão de ló de chocolate, preparado com ovos, açúcar e uma harmoniosa combinação de farinha de trigo e chocolate em pó. A massa é enriquecida com uma pitada de sal para realçar os sabores, além de óleo e água morna para garantir a textura perfeita. Leve e saboroso, é a base ideal para bolos que buscam um toque irresistível de chocolate.",
+            "prices": [],
+            "imageUrl": "https://receitinhas.com.br/wp-content/uploads/2022/09/Pao-de-lo-de-chocolate-1.png",
+            "bestSeller": false
+          },
+          {
+            "id": "21",
+            "name": "Pão de ló: Baunilha",
+            "ingredients": "Ovos, açúcar, farinha de trigo, essência de baunilha, fermento em pó.",
+            "description": "Um pão de ló leve e aromático, elaborado com ovos, açúcar e uma suave essência de baunilha, que proporciona um sabor delicado e perfumado à massa. A combinação equilibrada de ingredientes inclui farinha de trigo para garantir a textura macia e o fermento em pó para a leveza característica. Ideal como base para bolos que desejam destacar o sabor clássico e reconfortante da baunilha.",
+            "prices": [],
+            "imageUrl": "https://cooknenjoy.com/wp-content/uploads/2017/08/pao-de-lo-01.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "21",
+            "name": "Red Velvet",
+            "ingredients": "Farinha de trigo, açúcar, óleo vegetal, ovos, cacau em pó, corante vermelho, vinagre branco, bicarbonato de sódio, baunilha.",
+            "description": "Um pão de ló leve e aromático, elaborado com ovos, açúcar e uma suave essência de baunilha, que proporciona um sabor delicado e perfumado à massa. A combinação equilibrada de ingredientes inclui farinha de trigo para garantir a textura macia e o fermento em pó para a leveza característica. Ideal como base para bolos que desejam destacar o sabor clássico e reconfortante da baunilha.",
+            "prices": [],
+            "imageUrl": "https://i.ytimg.com/vi/i3LHmRv6PwY/maxresdefault.jpg",
+            "bestSeller": false
+          },
+        ]
+      }
     ]
   }
 ]

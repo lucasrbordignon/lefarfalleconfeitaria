@@ -15,7 +15,19 @@ const nextConfig = {
       "www.mavalerio.com.br",
       "s2-receitas.glbimg.com",
       "cdn0.tudoreceitas.com",
-      "vitat.com.br"
+      "vitat.com.br",
+      "cdn.portalrva.com.br",
+      "guiadacozinha.com.br",
+      "www.sabornamesa.com.br",
+      "www.receitasnestle.com.br",
+      "static.itdg.com.br",
+      "img.cybercook.com.br",
+      "cdn.casaeculinaria.com",
+      "catracalivre.com.br",
+      "i.panelinha.com.br",
+      "receitinhas.com.br",
+      "cooknenjoy.com",
+      "i.ytimg.com"
     ],
   },
 };
