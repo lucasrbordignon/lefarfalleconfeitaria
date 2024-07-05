@@ -1,4 +1,6 @@
 import { TRestaurant, PriceNameType } from "@/types/dish";
+import frutinhas from '../public/frutinhas.jpg';
+import paodemel from '../public/paodemel.jpg';
 
 //*** Mock data ***
 export const dishes: TRestaurant = {
