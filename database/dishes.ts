@@ -2,336 +2,407 @@ import { TRestaurant, PriceNameType } from "@/types/dish";
 
 //*** Mock data ***
 export const dishes: TRestaurant = {
-  name: "Magenta kitchen",
-  description:
-    "Since 1990, Magenta Kitchen has prided itself on being one of the best restaurants, a testament to its enduring legacy of excellence. Situated in the heart of California's culinary capital, Magenta Kitchen has become a beloved institution, cherished by locals and revered by food enthusiasts from around the globe.",
-  address: {
-    street: "123 Main Street",
-    city: "Anytown",
-    state: "California",
-    postalCode: "12345",
-    country: "United States",
-  },
-  sections: [
-    {
-      name: "Starters",
-      description:
-        "Stimulate the appetite and provide an initial burst of flavors and textures.",
-      items: [
-        {
-          id: "0",
-          name: "French Fries",
-          ingredients:
-            "Potatoes, peanut oil, sea salt, fresh herbs, garlick cloves, parmesan cheese, black pepper.",
-          description:
-            "French fries are incredibly versatile and are often enjoyed with burgers, sandwiches, or as a standalone snack. Their simplicity allows for a wide array of flavor variations, making them a popular and comforting treat across diverse cuisines and dining experiences.",
-          prices: [{ name: PriceNameType.STANDARD, price: 32.99 }],
-          imageUrl:
-            "https://images.unsplash.com/photo-1593545086735-abe33205bd4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
-          bestSeller: false,
-        },
-        {
-          id: "1",
-          name: "Onion rings",
-          ingredients:
-            "Onions, batter, oil, fresh herbs, pecorino cheese, egg wash, citrus flavor.",
-          description:
-            "Onion rings are a classic and popular deep-fried appetizer or side dish made from onion slices coated in a crispy batter or breading. They're commonly enjoyed with dipping sauces like ketchup, mayonnaise, or various flavored aiolis, adding an extra layer of taste to this crispy and flavorful treat.",
-          prices: [{ name: PriceNameType.STANDARD, price: 14.99 }],
-          imageUrl:
-            "https://images.pexels.com/photos/12557541/pexels-photo-12557541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          bestSeller: false,
-        },
-        {
-          id: "2",
-          name: "Super nacho",
-          ingredients:
-            "Torilla chips, cheese, protein(meat, chicken), tomatoes, jalapenos, ilantro, avocado, sour cream, refried beans.",
-          description:
-            "Popular Tex-Mex dish featuring crispy tortilla chips topped with a variety of flavorful ingredients. The dish is often assembled by layering the chips, cheese, and toppings, and then baking or broiling until the cheese melts and the ingredients warm through. It's a versatile dish, easily customizable to cater to different tastes, making it a favorite for gatherings, parties, or simply as a satisfying snack.",
-          prices: [{ name: PriceNameType.STANDARD, price: 12.99 }],
-          imageUrl:
-            "https://images.pexels.com/photos/15801063/pexels-photo-15801063/free-photo-of-nachos-with-topping-on-a-plate.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          bestSeller: true,
-        },
-        {
-          id: "3",
-          name: "Buffalo Chicken Wings",
-          ingredients:
-            "Chicken wings, oil, buffalo sauce, butter, slat, flour, blue cheese, carrot sticks, celery sticks ",
-          description:
-            "Buffalo chicken wings are a quintessential American appetizer known for their bold, spicy flavor. They typically consist of crispy fried chicken wings coated in a zesty and tangy Buffalo sauce. The dish's heat level can be adjusted to suit individual preferences, making it a beloved choice for gatherings, sports events, or casual dining, offering a spicy and indulgent finger food experience.",
-          prices: [{ name: PriceNameType.STANDARD, price: 22.99 }],
-          imageUrl:
-            "https://images.unsplash.com/photo-1524114664604-cd8133cd67ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
-          bestSeller: true,
-        },
-        {
-          id: "4",
-          name: "Tomato Soup",
-          ingredients:
-            "Tomatoes, oion, garlic, chicken broth, olive oil, herbs, salt, sugar, milk",
-          description:
-            "Tomato soup is a comforting and classic dish, cherished for its simplicity and vibrant flavor. It's a smooth, often creamy, soup made primarily from tomatoes, onions, and garlic. The preparation typically involves sautéing the aromatics, simmering the ingredients together, and blending the mixture into a smooth consistency. Tomato soup is often enjoyed on its own as a comforting starter.",
-          prices: [
-            { name: PriceNameType.SMALL, price: 10.99 },
-            { name: PriceNameType.MEDIUM, price: 16.99 },
-          ],
-          imageUrl:
-            "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          bestSeller: false,
-        },
-        {
-          id: "5",
-          name: "Mushroom Soup",
-          ingredients:
-            "Mushrooms, onio, garlic, butter, flour, broth, herbs, salt, cream",
-          description:
-            "Mushroom soup is a rich and flavorful dish that highlights the earthy essence of mushrooms. Mushroom soup is appreciated for its comforting, earthy notes, making it a perfect starter or a comforting meal, especially when paired with a slice of crusty bread or a side salad.",
-          prices: [
-            { name: PriceNameType.SMALL, price: 10.99 },
-            { name: PriceNameType.MEDIUM, price: 16.99 },
-          ],
-          imageUrl:
-            "https://images.pexels.com/photos/5950442/pexels-photo-5950442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          bestSeller: false,
-        },
-      ],
+    "name": "Le farfalle confeitaria",
+    "description": "É sobre fazer parte dos momentos mais importantes, sobre eternizar sabores e memórias.",
+    "address": {
+      "street": "",
+      "city": "",
+      "state": "",
+      "postalCode": "",
+      "country": ""
     },
+    "sections": [
+      {
+        "name": "Recheios",
+        "description": "Você pode incluir dois recheios no seu bolo mas lembre-se será cobrado valor do recheio mais caro no total.",
+        "items": [
+          {
+            "id": "0",
+            "name": "Doce de leite com abacaxi",
+            "ingredients": "Doce de leite cremoso com pedaços de abacaxi.",
+            "description": "Imagine o sabor cremoso do doce de leite combinado com a doçura tropical e um toque refrescante de abacaxi. É uma mistura irresistível que equilibra perfeitamente o suave doce de leite com a vivacidade do abacaxi, criando uma experiência deliciosa e única.",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 80.00
+              }
+            ],
+            "imageUrl": "https://docescaseirospaulinho.com.br/wp-content/uploads/2021/11/doces-caseiros-paulinho-doce-de-leite-com-abacaxi-002-1-570x622.jpg",
+            "bestSeller": true
+          },
+          {
+            "id": "1",
+            "name": "Doce de leite com morango",
+            "ingredients": "Doce de leite cremoso com pedaços de morango.",
+            "description": "Doce de leite com morango é uma combinação deliciosa que une a cremosidade suave do doce de leite com a frescura e a doçura dos morangos. Cada mordida oferece um equilíbrio perfeito entre o rico sabor do doce de leite e o toque refrescante dos morangos, criando uma experiência irresistível para o paladar.",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 80.00
+              }
+            ],
+            "imageUrl": "https://docescaseirospaulinho.com.br/wp-content/uploads/2021/11/doces-caseiros-paulinho-doce-de-leite-com-morango-001-1.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "2",
+            "name": "Doce de leite com nozes",
+            "ingredients": "Doce de leite cremoso com pedaços de nozes.",
+            "description": "O doce de leite cremoso com pedaços de nozes é uma delícia que combina a suavidade do doce de leite com o crocante das nozes. Cada colherada oferece uma experiência única, misturando a textura cremosa com o sabor rico e levemente amargo das nozes, resultando em uma sobremesa irresistível e equilibrada.",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 80.00
+              }
+            ],
+            "imageUrl": "https://www.receiteria.com.br/wp-content/uploads/brigadeiro-de-doce-de-leite-com-nozes-01.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "3",
+            "name": "Doce de leite com ameixas",
+            "ingredients": "Doce de leite cremoso com ameixas.",
+            "description": "O doce de leite cremoso com ameixas é uma combinação deliciosa que une a riqueza suave do doce de leite com o sabor agridoce das ameixas. Cada colherada oferece um equilíbrio perfeito entre a cremosidade e a doçura, criando uma experiência única e irresistível para o paladar.",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 80.00
+              }
+            ],
+            "imageUrl": "https://docescaseirospaulinho.com.br/wp-content/uploads/2021/11/doces-caseiros-paulinho-doce-de-leite-com-ameixa-001-1.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "4",
+            "name": "Leite Ninho com morango",
+            "ingredients": "Creme suave de Leite Ninho com pedaços frescos de morango.",
+            "description": "Leite Ninho com Morango é uma combinação deliciosa de creme suave de Leite Ninho com pedaços frescos de morango. A cremosidade do leite se mistura perfeitamente com a doçura e o toque refrescante dos morangos, criando um doce irresistível e equilibrado.",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 80.00
+              }
+            ],
+            "imageUrl": "https://revistadestaquemais.com.br/wp-content/uploads/2019/08/DSC_0192.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "5",
+            "name": "Leite Ninho com geléia",
+            "ingredients": "Creme suave de Leite Ninho com a geléia da sua preferência.",
+            "description": "Desfrute da cremosidade irresistível do Leite Ninho combinada com a sua geléia preferida. Seja morango, framboesa, ou outra de sua escolha, a mistura cria um doce perfeito, onde a suavidade do Leite Ninho encontra o sabor frutado e vibrante da geléia, proporcionando uma experiência única e deliciosa.",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 80.00
+              }
+            ],
+            "imageUrl": "https://www.mavalerio.com.br/wp-content/uploads/2021/06/11-bolo-no-pote-de-morango-005-min-500x340.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "6",
+            "name": "Leite Ninho com creme de avelã",
+            "ingredients": "Creme suave de Leite Ninho com creme de avelã.",
+            "description": "Delicie-se com a combinação perfeita de Leite Ninho e creme de avelã. A suavidade e cremosidade do Leite Ninho se unem ao sabor rico e intenso do creme de avelã, criando um doce irresistível e sofisticado. ",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 80.00
+              }
+            ],
+            "imageUrl": "https://s2-receitas.glbimg.com/Pya3NoS53nN_bY1P986EbDt-99E=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2024/u/j/LgDADlTuaDlb9epVtMvw/mousse-de-leite-ninho-com-nutella.jpg",
+            "bestSeller": false
+          },          
+          {
+            "id": "7",
+            "name": "Leite Ninho com uvas s/sementes",
+            "ingredients": "Creme suave de Leite Ninho com uvas s/ sementes.",
+            "description": "Experimente a deliciosa combinação de Leite Ninho com uvas sem sementes. A cremosidade suave do Leite Ninho se harmoniza perfeitamente com a doçura e a textura suculenta das uvas, criando um doce refrescante e irresistível.",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 80.00
+              }
+            ],
+            "imageUrl": "https://cdn0.tudoreceitas.com/pt/posts/8/2/9/copo_da_felicidade_de_uva_verde_11928_600.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "8",
+            "name": "Cream cheese (geléia opcional)",
+            "ingredients": "Cream cheese com a geléia da sua preferência.",
+            "description": "Experimente a combinação irresistível de um recheio cremoso de cream cheese com a sua geléia favorita. A suavidade e o sabor rico do cream cheese harmonizam perfeitamente com o toque doce e frutado da geléia, criando uma explosão de sabores a cada mordida. Perfeito para quem busca um toque sofisticado e delicioso no seu bolo.",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 80.00
+              }
+            ],
+            "imageUrl": "https://vitat.com.br/receitas/images/recipeshandler.jpg?id=4521&tipo=r&default=s&ims=fit-in/414x275/filters:quality(60)",
+            "bestSeller": false
+          },
+          {
+            "id": "9",
+            "name": "Tropical (recheio de leite ninho c/ frutas)",
+            "ingredients": "Creme suave de Leite Ninho com frutas.",
+            "description": "Desfrute do sabor exótico do recheio Tropical, que combina a cremosidade do leite Ninho com pedaços suculentos de frutas frescas. Cada mordida traz a doçura e a leveza do leite, complementadas pela frescura vibrante das frutas, criando uma experiência única e deliciosa para o seu bolo. Perfeito para quem procura um toque tropical e refrescante.",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 80.00
+              }
+            ],
+            "imageUrl": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/6d095c02a568b053940d03519bc54216.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "10",
+            "name": "Creme Belga com Pêssego",
+            "ingredients": "Delicioso Creme Belga com pedaços de pêssegos.",
+            "description": "A textura aveludada e o sabor sofisticado do creme belga se misturam harmoniosamente com a doçura e a leveza dos pêssegos, proporcionando uma experiência gastronômica inesquecível em cada fatia de bolo. Perfeito para momentos especiais e celebrações.",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 75.00
+              }
+            ],
+            "imageUrl": "https://cdn.portalrva.com.br/wp-content/uploads/2021/10/creme-pessego.png",
+            "bestSeller": false
+          },
+          {
+            "id": "11",
+            "name": "Creme Belga com Abacaxi",
+            "ingredients": "Delicioso Creme Belga com pedaços de abacaxi.",
+            "description": "A textura suave e cremosa do creme belga se encontra com a doçura e a acidez refrescante do abacaxi, criando uma combinação perfeita de sabores e sensações. Ideal para transformar qualquer bolo em uma verdadeira obra-prima.",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 75.00
+              }
+            ],
+            "imageUrl": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/pave-de-abacaxi-no-copinho-47488.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "12",
+            "name": "Creme Belga com Morango",
+            "ingredients": "Delicioso Creme Belga com pedaços de morango.",
+            "description": "Aveludado e suave, o creme belga se mistura harmoniosamente com a doçura e a leve acidez dos morangos frescos, proporcionando uma experiência única e irresistível a cada mordida. Perfeito para bolos que encantam e surpreendem.",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 75.00
+              }
+            ],
+            "imageUrl": "https://www.sabornamesa.com.br/media/k2/items/cache/a9890e385e3991d4a934a6f9e908db80_XL.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "13",
+            "name": "Mousse de Maracujá",
+            "ingredients": "Leve mousse aerado de Maracujá.",
+            "description": "A textura aerada e o sabor tropical e ligeiramente ácido do maracujá se combinam para criar uma experiência deliciosa e revigorante.",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 70.00
+              }
+            ],
+            "imageUrl": "https://static.itdg.com.br/images/360-240/8fed8f60d3c8e3990396e2478cbc7f2a/shutterstock-1905617575-1-.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "14",
+            "name": "Mousse de Limão",
+            "ingredients": "Leve mousse aerado de Limão.",
+            "description": "Com uma textura aerada e um sabor cítrico e revigorante, essa mousse proporciona uma experiência deliciosa e equilibrada.",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 70.00
+              }
+            ],
+            "imageUrl": "https://img.cybercook.com.br/receitas/145/mousse-de-limao-trufado-3.jpeg",
+            "bestSeller": false
+          },
+          {
+            "id": "15",
+            "name": "Mousse de Leite Ninho",
+            "ingredients": "Leve mousse aerado de Leite Ninho.",
+            "description": "Com uma textura leve e aerada, essa mousse traz o sabor clássico e irresistível do leite Ninho, proporcionando uma experiência doce e cremosa que vai encantar o paladar.",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 70.00
+              }
+            ],
+            "imageUrl": "https://cdn.casaeculinaria.com/wp-content/uploads/2023/03/05163747/Mousse-de-leite-ninho.webp",
+            "bestSeller": false
+          },
+          {
+            "id": "16",
+            "name": "Mousse de Chocolate",
+            "ingredients": "Leve mousse aerado de Chocolate.",
+            "description": "Com uma textura leve e aerada, essa mousse oferece o sabor rico e intenso do chocolate, criando uma experiência deliciosa e sofisticada. ",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 70.00
+              }
+            ],
+            "imageUrl": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/369562012750bd46ceaeef5d59a23229.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "17",
+            "name": "Floresta Negra",
+            "ingredients": "Leve creme de chantilly com cerejas.",
+            "description": "A suavidade e a doçura do chantilly se harmonizam perfeitamente com o sabor vibrante e ligeiramente ácido das cerejas. Ahh, e não se esqueça de escolher algumas de nossas massas de chocolate!!",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 70.00
+              }
+            ],
+            "imageUrl": "https://img.freepik.com/fotos-premium/delicioso-pave-de-chocolate-da-floresta-negra-com-cerejas-e-chantilly-em-uma-grande-tigela-de-vidro-guarnecido-com-chocolate-picado-cacau-em-po-e-bagas-sobremesa-decadente-indulgente_76014-390.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "18",
+            "name": "Prestígio",
+            "ingredients": "Leve cocada cremosa.",
+            "description": "A textura macia e o sabor doce do coco se misturam de forma perfeita, proporcionando uma experiência irresistível e indulgente. Ahh, e não se esqueça de escolher algumas de nossas massas de chocolate!!",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 70.00
+              }
+            ],
+            "imageUrl": "https://catracalivre.com.br/wp-content/uploads/2023/11/cocada-cremosa.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "19",
+            "name": "Brigadeiro 70% cacau",
+            "ingredients": "Leve Brigadeiro 70% cacau.",
+            "description": "Com uma textura suave e cremosa, esse brigadeiro oferece um sabor intenso e refinado de chocolate amargo, criando uma experiência gourmet e irresistível.",
+            "und": "KG",
+            "prices": [
+              {
+                "name": "standard",
+                "price": 70.00
+              }
+            ],
+            "imageUrl": "https://i.panelinha.com.br/i1/228-bk-6392-blog-ayu1901.webp",
+            "bestSeller": false
+          },
+        ]
+      },
+      {
+        "name": "Massas",
+        "description": "É sobre fazer parte dos momentos mais importantes, sobre eternizar sabores e memórias.",
+        "items": [
+          {
+            "id": "20",
+            "name": "Pão de ló: Chocolate",
+            "ingredients": "Ovos, açúcar, farinha de trigo, chocolate em pó e fermento em pó.",
+            "description": "Um delicado e aerado pão de ló de chocolate, preparado com ovos, açúcar e uma harmoniosa combinação de farinha de trigo e chocolate em pó. A massa é enriquecida com uma pitada de sal para realçar os sabores, além de óleo e água morna para garantir a textura perfeita. Leve e saboroso, é a base ideal para bolos que buscam um toque irresistível de chocolate.",
+            "und": "KG",
+            "prices": [],
+            "imageUrl": "https://receitinhas.com.br/wp-content/uploads/2022/09/Pao-de-lo-de-chocolate-1.png",
+            "bestSeller": false
+          },
+          {
+            "id": "21",
+            "name": "Pão de ló: Baunilha",
+            "ingredients": "Ovos, açúcar, farinha de trigo, essência de baunilha, fermento em pó.",
+            "description": "Um pão de ló leve e aromático, elaborado com ovos, açúcar e uma suave essência de baunilha, que proporciona um sabor delicado e perfumado à massa. A combinação equilibrada de ingredientes inclui farinha de trigo para garantir a textura macia e o fermento em pó para a leveza característica. Ideal como base para bolos que desejam destacar o sabor clássico e reconfortante da baunilha.",
+            "und": "KG",
+            "prices": [],
+            "imageUrl": "https://cooknenjoy.com/wp-content/uploads/2017/08/pao-de-lo-01.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "21",
+            "name": "Red Velvet",
+            "ingredients": "Farinha de trigo, açúcar, óleo vegetal, ovos, cacau em pó, corante vermelho, vinagre branco, bicarbonato de sódio, baunilha.",
+            "description": "Um pão de ló leve e aromático, elaborado com ovos, açúcar e uma suave essência de baunilha, que proporciona um sabor delicado e perfumado à massa. A combinação equilibrada de ingredientes inclui farinha de trigo para garantir a textura macia e o fermento em pó para a leveza característica. Ideal como base para bolos que desejam destacar o sabor clássico e reconfortante da baunilha.",
+            "und": "KG",
+            "prices": [],
+            "imageUrl": "https://i.ytimg.com/vi/i3LHmRv6PwY/maxresdefault.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "22",
+            "name": "Amanteigada: Chocolate",
+            "ingredients": "Farinha de trigo, açúcar, manteiga, ovos, cacau em pó, fermento em pó e leite.",
+            "description": "A massa de bolo amanteigada de chocolate é rica e úmida, com um sabor profundo e intenso de chocolate. A combinação de manteiga, ovos e leite cria uma textura macia e fofa, enquanto o chocolate em pó ou cacau em pó adiciona a característica marcante do chocolate. Ideal para amantes de chocolate, essa massa é perfeita para bolos de aniversário ou qualquer ocasião especial.",
+            "und": "KG",
+            "prices": [],
+            "imageUrl": "https://i.ytimg.com/vi/RKz7FAwvFCs/maxresdefault.jpg",
+            "bestSeller": false
+          },
+          {
+            "id": "23",
+            "name": "Amanteigada: Baunilha",
+            "ingredients": "Farinha de trigo, açúcar, manteiga, ovos, leite, fermento em pó e essência de baunilha.",
+            "description": "A massa de bolo amanteigada de baunilha é clássica e versátil, conhecida por sua textura macia e sabor delicado de baunilha. A manteiga e os ovos proporcionam uma base rica e úmida, enquanto a essência de baunilha confere um aroma e sabor sutis e agradáveis. Esta massa é excelente para bolos simples, cobertos com glacê ou acompanhados de frutas e cremes.",
+            "und": "KG",
+            "prices": [],
+            "imageUrl": "https://4.bp.blogspot.com/-P6YQDTpskAE/Wum2TH8TkJI/AAAAAAAAMzc/Z9j85LQvm6glud5EudEu9mOxRfbQc2k8QCLcBGAs/w1200-h630-p-k-no-nu/massa-de-bolo%2B%25281%2529.jpg",
+            "bestSeller": false
+          },
+        ]
+      },
+      {
+        "name": "Doces",
+        "description": "Se nada funcionar, tente um docinho gourmet. Consulte quantidades mínimas para pedido.",
+        "items": [
+          {
+            "id": "24",
+            "name": "Pão de Mel",
+            "ingredients": "Casca de chocolate crocante, massa de pão de mel com um recheio leve e equilibrado. Recheios: Doce de leite e Prestígio.",
+            "description": "O pão de mel recheado é um doce macio e úmido, feito com mel e especiarias como canela e cravo. Coberto com chocolate, possui um recheio cremoso, geralmente de doce de leite ou cocada cremosa, que adiciona uma deliciosa camada extra de sabor. Perfeito para acompanhar um café.",
+            "und": "UND",
+            "prices": [
+              
+            ],
+            "imageUrl": paodemel.src,
+            "bestSeller": false
+          },
+          {
+            "id": "25",
+            "name": "Frutinhas de Leite Ninho",
+            "ingredients": "As frutinhas de leite Ninho são doces delicados e coloridos, feitos com uma base de leite Ninho, açúcar e leite condensado.",
+            "description": "Moldadas em pequenas formas de frutas, essas guloseimas possuem uma textura macia e levemente granulada, derretendo suavemente na boca. Perfeitas para festas e celebrações, as frutinhas de leite Ninho encantam pelo sabor doce e pela aparência charmosa e artesanal.",
+            "und": "UND",
+            "prices": [
 
-    {
-      name: "Salads",
-      description:
-        "Medley of fresh, crisp and colorful ingredients harmoniously combined to create a dish that's both refreshing and nutritious.",
-      items: [
-        {
-          id: "6",
-          name: "Caesar Salad",
-          ingredients:
-            "Romaine lettuce, parmeeesan cheese, croutons, aesar dressing, grilled chiken, bacon bits",
-          description:
-            "Caesar salad is a beloved classic known for its simple yet flavorful components. Caesar salad is a beloved classic known for its simple yet flavorful components. This salad is assembled by tossing the romaine lettuce with the Caesar dressing, Parmesan cheese, and croutons. It can be served as a starter or as a main dish with the addition of protein. The combination of fresh lettuce, savory dressing, and crunchy elements makes it a popular and satisfying choice for any meal.",
-          prices: [{ name: PriceNameType.STANDARD, price: 32.99 }],
-          imageUrl:
-            "https://img.freepik.com/free-photo/chicken-parmesan-caesar-salad-with-lettuce-cherry-tomatoes-inside-white-bowl-served-with-sauce-bread_114579-204.jpg?w=996&t=st=1685654701~exp=1685655301~hmac=d4f5e0e0843f2220c3d10250bbece26b7c426b7c13d88a210a8890bd924f6495",
-          bestSeller: false,
-        },
-        {
-          id: "7",
-          name: "Green Salad",
-          ingredients:
-            "Leaf lettuche, cucumbers, tomatoes, bell peppers, carrots, radishes, vinaigrette, creamy dreesing, salt, croutons, nuts, grated parmesan",
-          description:
-            "Green salad is a versatile and refreshing dish typically composed of various fresh greens and a medley of vegetables. Its versatility allows for endless variations, making it a flexible and nutritious accompaniment to a wide range of meals or as a standalone light dish.",
-          prices: [{ name: PriceNameType.STANDARD, price: 32.99 }],
-          imageUrl:
-            "https://images.unsplash.com/photo-1608032077018-c9aad9565d29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-          bestSeller: false,
-        },
-        {
-          id: "8",
-          name: "Greek Salad",
-          ingredients:
-            "Tomatoes, cucumbers, red onion, bell peppers, feta cheese, kalamata olives, extra virgin olive oil, red wine vinegar, herbs.",
-          description:
-            "Greek salad is a classic dish celebrated for its vibrant colors and fresh Mediterranean flavors. The dressing, made with olive oil, vinegar, herbs, and seasonings, is then drizzled over the ingredients, creating a colorful and delectable dish known for its vibrant presentation and refreshing taste. It's a versatile side dish that perfectly complements various Mediterranean or grilled dishes.",
-          prices: [{ name: PriceNameType.STANDARD, price: 32.99 }],
-          imageUrl:
-            "https://img.freepik.com/free-photo/dietary-salad-with-tomatoes-feta-lettuce-spinach-pine-nuts_2829-20133.jpg?w=996&t=st=1685654765~exp=1685655365~hmac=bca184fffd5a0fb634c6103abf63f31ae6d9188f8905f3c9ff26c56670b78ad1",
-          bestSeller: true,
-        },
-      ],
-    },
-
-    {
-      name: "Main dishes",
-      description:
-        "Substantial part of the dining experience and consists of a larger portion compared to appetizers or side dishes.",
-      items: [
-        {
-          id: "21",
-          name: "Beef Hamburger",
-          ingredients:
-            "Ground beef, salt, pepper, buns, lettuche, tomato slices, onion, pickles, cheese, ktchup, mustard, mayonnaise, barbecue sauce",
-          description:
-            "Beef is a widely consumed and versatile meat obtained from cattle. It's renowned for its rich flavor and various cuts. It's a good source of high-quality protein, essential nutrients like iron and B-vitamins, and is often part of various cuisines worldwide. Beef remains a cornerstone in many diets and culinary traditions, offering a wide range of flavors and textures suitable for different dishes and cooking methods.",
-          prices: [
-            { name: PriceNameType.SINGLE, price: 10.99 },
-            { name: PriceNameType.DOUBLE, price: 16.99 },
-          ],
-          imageUrl:
-            "https://images.pexels.com/photos/1199957/pexels-photo-1199957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          bestSeller: false,
-        },
-        {
-          id: "22",
-          name: "Meat",
-          ingredients:
-            "Meat, salt, pepper, oil, butter, garlic powder, onion powder, paprika, dried herbs, tomatoes, bell peppers.",
-          description:
-            "Meat is a fundamental food source obtained from animals, typically livestock like cattle, pigs, poultry, and more. Meat serves as a staple in numerous diets and recipes, offering a rich taste and diverse culinary possibilities based on cuts, cooking techniques, and flavor profiles.",
-          prices: [{ name: PriceNameType.STANDARD, price: 32.99 }],
-          imageUrl:
-            "https://images.pexels.com/photos/1639561/pexels-photo-1639561.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          bestSeller: false,
-        },
-        {
-          id: "23",
-          name: "Lasagne",
-          ingredients:
-            "Lasagna noodles, ground meat, tomato sauce, ricotta cheese, mozzarella cheese, parmesan cheese, eggs, oregano, salt, pepper.",
-          description:
-            "Lasagne is a beloved Italian dish renowned for its layers of pasta, savory sauces, and melted cheese. Lasagne is baked until the pasta is tender and the cheese on top turns golden and bubbly, resulting in a comforting, hearty, and indulgent meal. Its flavorful layers and comforting texture make it a beloved choice for gatherings or family meals.",
-          prices: [{ name: PriceNameType.STANDARD, price: 32.99 }],
-          imageUrl:
-            "https://images.pexels.com/photos/5949903/pexels-photo-5949903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          bestSeller: true,
-        },
-        {
-          id: "24",
-          name: "Flautas",
-          ingredients:
-            "Tortillas, shredded chicken, oil, slat, pepper, cumin, chili powder, garlic powder, monterey cheese, sour cream , guacamole, salsa, shredded lettuche, chopped tomatoes, refried beans, mexican rice.",
-          description:
-            "Flautas, a popular dish in Mexican cuisine, are savory and crispy rolled tortillas filled with seasoned ingredients. These delicious, crunchy treats are often enjoyed as appetizers or as a main course, accompanied by sides like refried beans or Mexican rice. The versatile filling options and crispy texture make flautas a beloved and flavorful choice in Mexican cuisine.",
-          prices: [{ name: PriceNameType.STANDARD, price: 32.99 }],
-          imageUrl:
-            "https://img.freepik.com/free-photo/selective-focus-shot-mexican-style-delicious-pork-flautas-white-plate_181624-38905.jpg?w=996&t=st=1685655633~exp=1685656233~hmac=5488fdfe6f5a324a4533a420a1f736071c584b8903ca073fd947e12f22c1af14",
-          bestSeller: true,
-        },
-        {
-          id: "25",
-          name: "Meat Tacos",
-          ingredients:
-            "Tortillas, chicken, pork, shredded lettuch, dicd tomatos, diced onions, chopped cilantro, salsa(red or green), guacamole, sour ream, monterey cheese, refried beans, hot sauce, cumin, garlic powder, onion, salt.",
-          description:
-            "Meat tacos are a popular and flavorful Mexican dish consisting of seasoned meat, typically beef, chicken, or pork, served in a tortilla and complemented with an array of fresh toppings. This beloved dish offers a delightful medley of well-seasoned meat, fresh toppings, and the convenience of handheld eating, making it a favorite for its vibrant flavors and customizable elements.",
-          prices: [{ name: PriceNameType.STANDARD, price: 32.99 }],
-          imageUrl:
-            "https://img.freepik.com/free-photo/mexican-food-concept-high-angle_23-2148629376.jpg?w=996&t=st=1685655727~exp=1685656327~hmac=d36606a8e0357f8542a2032fb4e331bb17c54517eea07d1ff4018d44712455c1",
-          bestSeller: true,
-        },
-      ],
-    },
-
-    {
-      name: "Beverages",
-      description:
-        "Extensive array of flavors, temperatures, and textures, enriching our experiences with their diversity and refreshing qualities.",
-      items: [
-        {
-          id: "26",
-          name: "Coffee",
-          ingredients:
-            "Ground coffee, water, sweeteners(sugar, honey), milk(whole, skim, half-and-half).",
-          description:
-            "Coffee is a beloved and globally cherished beverage known for its rich aroma and distinct flavor. Coffee is celebrated for its invigorating qualities and the comfort it provides, making it a staple in many morning routines or a perfect companion during moments of relaxation.",
-          prices: [
-            { name: PriceNameType.TWELVEOZ, price: 10.99 },
-            { name: PriceNameType.SIXTEENOZ, price: 16.99 },
-          ],
-          imageUrl:
-            "https://images.pexels.com/photos/3491211/pexels-photo-3491211.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          bestSeller: true,
-        },
-        {
-          id: "27",
-          name: "Latte",
-          ingredients:
-            "Expresso, steamed milk, sugar, flavored syrups(vanilla, caramel, hazelnut).",
-          description:
-            "Latte is a popular and comforting coffee beverage known for its creamy texture and rich espresso flavor. Latte customization often includes adding sweeteners or flavored syrups like vanilla or caramel, catering to individual tastes. It's a comforting and versatile coffee choice, enjoyed for its creamy texture and the balanced blend of espresso and steamed milk.",
-          prices: [
-            { name: PriceNameType.TWELVEOZ, price: 10.99 },
-            { name: PriceNameType.SIXTEENOZ, price: 16.99 },
-          ],
-          imageUrl:
-            "https://images.unsplash.com/photo-1593443320739-77f74939d0da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80",
-          bestSeller: true,
-        },
-        {
-          id: "28",
-          name: "Ice Coffee",
-          ingredients:
-            "Coffee, ice, milk, sweeteners(sugar, syrup, honey), flavorings(vanilla, caramel) whipped cream",
-          description:
-            "Iced coffee is a refreshing and cool version of the beloved coffee beverage, commonly enjoyed during warmer months or as a delightful pick-me-up any time of year. Iced coffee provides a cool and invigorating way to enjoy the flavors of coffee, whether it's the simple and classic black iced coffee or a customized creation with added ingredients.",
-          prices: [
-            { name: PriceNameType.TWELVEOZ, price: 10.99 },
-            { name: PriceNameType.SIXTEENOZ, price: 16.99 },
-          ],
-          imageUrl:
-            "https://images.pexels.com/photos/2615323/pexels-photo-2615323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          bestSeller: false,
-        },
-        {
-          id: "29",
-          name: "Lemonade",
-          ingredients: "Lemons, water, sugar, ice, herbs",
-          description:
-            "Lemonade is a timeless and refreshing beverage made primarily from fresh lemon juice, water, and sugar. Lemonade is a quintessential, thirst-quenching beverage, cherished for its simplicity and versatility. Whether enjoyed on a hot day or as a delightful addition to any gathering, it offers a perfect balance of tartness and sweetness.",
-          prices: [{ name: PriceNameType.STANDARD, price: 32.99 }],
-          imageUrl:
-            "https://images.pexels.com/photos/2109099/pexels-photo-2109099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          bestSeller: false,
-        },
-        {
-          id: "30",
-          name: "Tequila",
-          ingredients: "Blue agave tequila, lime, salt",
-          description:
-            "Tequila is a distinctive distilled alcoholic beverage made primarily from the blue agave plant. Tequila is celebrated for its unique taste, diverse aging profiles, and its role in crafting a variety of cocktails. From the classic margarita to sipping it neat, tequila presents a rich and flavorful experience. ",
-          prices: [{ name: PriceNameType.STANDARD, price: 32.99 }],
-          imageUrl:
-            "https://images.unsplash.com/photo-1529671434436-8fbb37410056?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-          bestSeller: true,
-        },
-      ],
-    },
-
-    {
-      name: "Deserts",
-      description:
-        "Sweet dishes and treats enjoyed at the end of a meal or as a standalone indulgence.",
-      items: [
-        {
-          id: "31",
-          name: "Chocolate Ice cream",
-          ingredients:
-            "Heavy cream, whole milk, cocoa powder, sugar, egg yolks, vanilla extract, salt",
-          description:
-            "Chocolate ice cream is a beloved frozen dessert featuring a rich, creamy base infused with the indulgent taste of cocoa. This decadent treat is loved for its luxurious texture and deep, chocolatey taste. Whether enjoyed in a cone, a cup, or as a complement to other desserts, chocolate ice cream offers a delightful and satisfying indulgence.",
-          prices: [{ name: PriceNameType.STANDARD, price: 32.99 }],
-          imageUrl:
-            "https://images.pexels.com/photos/2846337/pexels-photo-2846337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          bestSeller: false,
-        },
-        {
-          id: "32",
-          name: "Vanilla & Strawberry Cake",
-          ingredients:
-            "Vanilla extract, flour, granulated sugar, butter, eggs, buttermilk bakig powder, bakig soda",
-          description:
-            "A vanilla and strawberry cake is a delightful dessert that combines the classic flavors of vanilla with the fresh sweetness of strawberries. This cake is a wonderful blend of flavors, combining the familiarity of vanilla with the bright, natural sweetness of strawberries. It offers a delightful contrast of tastes and textures, making it a favorite for celebratory occasions or a sweet treat to indulge in.",
-          prices: [{ name: PriceNameType.STANDARD, price: 32.99 }],
-          imageUrl:
-            "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          bestSeller: true,
-        },
-        {
-          id: "33",
-          name: "Churros",
-          ingredients:
-            "Fluor, Butter, ggs, salt, vegetable oil, sugar, cinnamo",
-          description:
-            "Churros are a beloved Spanish and Portuguese treat, popular worldwide for their crispy, golden exterior and soft, fluffy interior Churros are often served as a delightful snack or dessert, sometimes accompanied by chocolate sauce or caramel for dipping. Their crispy exterior, combined with the warm and soft interior, makes them a satisfying and indulgent treat..",
-          prices: [{ name: PriceNameType.STANDARD, price: 32.99 }],
-
-          imageUrl:
-            "https://images.pexels.com/photos/6310077/pexels-photo-6310077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          bestSeller: false,
-        },
-      ],
-    },
-  ],
-};
+            ],
+            "imageUrl": frutinhas.src,
+            "bestSeller": false
+          },
+        ]
+      }
+    ]
+  }
