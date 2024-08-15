@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-import { ReadOutlined } from "@ant-design/icons";
+import { InstagramOutlined, ReadOutlined } from "@ant-design/icons";
 import { Button, Layout, theme, Typography } from "antd";
 const { Header } = Layout;
 const { Title } = Typography;
@@ -33,27 +33,33 @@ export const HomeNavbar = () => {
         >
           <img className={styles.img} src={borboleta.src} alt="" />
           <img className={styles.img} src={logo.src} alt="" />
-          {/* <IconChefHat
-            size={30}
-            color={`${token.colorPrimary}`}
-          /> */}
-          {/* <Title
-            level={1}
-            style={{ fontSize: "24px" }}
-          >
-            Le Farfalle
-          </Title> */}
         </div>
 
         <div className={styles.menuIcon}>
+          <Button
+            href="https://www.instagram.com/lefarfalleconfeitaria/"
+            target="_blank"
+            style={{ marginRight: ".5rem" }}
+            icon={<InstagramOutlined />}
+          />
+
           <Button
             icon={<ReadOutlined />}
             onClick={() => router.push("/dishes")}
           />
         </div>
 
-        {/* desktop */}
+        {/* desktop */}     
         <div className={styles.headerButtonsContainer}>
+          <Button
+            href="https://www.instagram.com/lefarfalleconfeitaria/"
+            target="_blank"
+            style={{ marginRight: ".5rem" }}
+            icon={<InstagramOutlined />}
+          >
+            Nos siga no instagram!
+          </Button>
+
           <Button
             icon={<ReadOutlined />}
             onClick={() => router.push("/dishes")}
