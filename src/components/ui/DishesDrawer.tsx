@@ -2,6 +2,7 @@ import { Button, Drawer, Typography, theme } from "antd";
 import { useRouter } from "next/router";
 const { Title } = Typography;
 
+import { InstagramOutlined } from "@ant-design/icons";
 import styles from "../../styles/dishesNavbar.module.css";
 import { MenuItems } from "./MenuItems";
 
@@ -51,8 +52,9 @@ export const DishesDrawer = ({ open, setOpen }) => {
         <div className={styles.buttonContainer}>
           <Button
             href="https://www.instagram.com/lefarfalleconfeitaria/"
-            target="_blank"            
-          >
+            target="_blank"  
+            icon={<InstagramOutlined />}          
+          > 
             Feito com amor...
           </Button>
         </div>

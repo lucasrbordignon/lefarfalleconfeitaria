@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 
-import { HomeOutlined, MenuOutlined } from "@ant-design/icons";
+import { HomeOutlined, InstagramOutlined, MenuOutlined } from "@ant-design/icons";
 import { Button, Layout, theme, Typography } from "antd";
 const { Header } = Layout;
 const { Title } = Typography;
@@ -10,7 +10,6 @@ const { Title } = Typography;
 import borboleta from "../../../public/borboleta.png";
 import logo from "../../../public/logo.png";
 
-import { IconBrandInstagram } from "@tabler/icons-react";
 import { DishesDrawer } from ".";
 import navStyles from "../../styles/dishesNavbar.module.css";
 import styles from "../../styles/navbar.module.css";
@@ -66,14 +65,14 @@ export const DishesNavbar = () => {
             href="https://www.instagram.com/lefarfalleconfeitaria/"
             target="_blank"
             style={{ marginRight: ".5rem" }}
-            icon={<IconBrandInstagram />}
+            icon={<InstagramOutlined />}
           />
 
           <Button
             icon={<HomeOutlined />}
             onClick={() => router.push("/")}
           >
-            Home
+            Início
           </Button>
         </div>
       </nav>
