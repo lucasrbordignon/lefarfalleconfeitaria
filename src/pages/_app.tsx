@@ -1,12 +1,12 @@
 import { FloatingButton } from "@/components/ui/FloatingButton";
 import { ConfigProvider } from "antd";
 import type { AppProps } from "next/app";
-import { darkTheme } from "../../themes";
+import { Theme } from "../../themes";
 import "../styles/globals.css";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <ConfigProvider theme={darkTheme}>
+    <ConfigProvider theme={Theme}>
       <Component {...pageProps} />
       <FloatingButton/>
     </ConfigProvider>
