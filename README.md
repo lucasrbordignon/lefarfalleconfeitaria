@@ -7,7 +7,7 @@ git clone https://github.com/lucasrbordignon/lefarfalleconfeitaria.git
 2. Go into project
 
 ```bash
-cd restaurant-menu
+cd lefarfalleconfeitaria
 ```
 
 3. Install dependencies
