@@ -27,7 +27,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 80.00
+                "price": 90.00
               }
             ],
             "imageUrl": "https://docescaseirospaulinho.com.br/wp-content/uploads/2021/11/doces-caseiros-paulinho-doce-de-leite-com-abacaxi-002-1-570x622.jpg",
@@ -42,7 +42,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 80.00
+                "price": 90.00
               }
             ],
             "imageUrl": "https://docescaseirospaulinho.com.br/wp-content/uploads/2021/11/doces-caseiros-paulinho-doce-de-leite-com-morango-001-1.jpg",
@@ -57,7 +57,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 80.00
+                "price": 90.00
               }
             ],
             "imageUrl": "https://www.receiteria.com.br/wp-content/uploads/brigadeiro-de-doce-de-leite-com-nozes-01.jpg",
@@ -72,7 +72,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 80.00
+                "price": 90.00
               }
             ],
             "imageUrl": "https://docescaseirospaulinho.com.br/wp-content/uploads/2021/11/doces-caseiros-paulinho-doce-de-leite-com-ameixa-001-1.jpg",
@@ -87,7 +87,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 80.00
+                "price": 90.00
               }
             ],
             "imageUrl": "https://revistadestaquemais.com.br/wp-content/uploads/2019/08/DSC_0192.jpg",
@@ -102,7 +102,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 80.00
+                "price": 90.00
               }
             ],
             "imageUrl": "https://www.mavalerio.com.br/wp-content/uploads/2021/06/11-bolo-no-pote-de-morango-005-min-500x340.jpg",
@@ -117,7 +117,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 80.00
+                "price": 90.00
               }
             ],
             "imageUrl": "https://s2-receitas.glbimg.com/Pya3NoS53nN_bY1P986EbDt-99E=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2024/u/j/LgDADlTuaDlb9epVtMvw/mousse-de-leite-ninho-com-nutella.jpg",
@@ -132,7 +132,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 80.00
+                "price": 90.00
               }
             ],
             "imageUrl": "https://cdn0.tudoreceitas.com/pt/posts/8/2/9/copo_da_felicidade_de_uva_verde_11928_600.jpg",
@@ -147,7 +147,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 80.00
+                "price": 90.00
               }
             ],
             "imageUrl": "https://vitat.com.br/receitas/images/recipeshandler.jpg?id=4521&tipo=r&default=s&ims=fit-in/414x275/filters:quality(60)",
@@ -162,7 +162,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 80.00
+                "price": 90.00
               }
             ],
             "imageUrl": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/6d095c02a568b053940d03519bc54216.jpg",
@@ -177,7 +177,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 75.00
+                "price": 85.00
               }
             ],
             "imageUrl": "https://cdn.portalrva.com.br/wp-content/uploads/2021/10/creme-pessego.png",
@@ -192,7 +192,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 75.00
+                "price": 85.00
               }
             ],
             "imageUrl": "https://guiadacozinha.com.br/wp-content/uploads/2019/10/pave-de-abacaxi-no-copinho-47488.jpg",
@@ -207,7 +207,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 75.00
+                "price": 85.00
               }
             ],
             "imageUrl": "https://www.sabornamesa.com.br/media/k2/items/cache/a9890e385e3991d4a934a6f9e908db80_XL.jpg",
@@ -222,10 +222,10 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 70.00
+                "price": 80.00
               }
             ],
-            "imageUrl": "https://static.itdg.com.br/images/360-240/8fed8f60d3c8e3990396e2478cbc7f2a/shutterstock-1905617575-1-.jpg",
+            "imageUrl": "https://static.itdg.com.br/images/360-240/8fed8f60d3c8e3990396e2478cbc7f2a/shutterstock-190561875-1-.jpg",
             "bestSeller": false
           },
           {
@@ -237,7 +237,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 70.00
+                "price": 80.00
               }
             ],
             "imageUrl": "https://img.cybercook.com.br/receitas/145/mousse-de-limao-trufado-3.jpeg",
@@ -252,7 +252,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 70.00
+                "price": 80.00
               }
             ],
             "imageUrl": "https://cdn.casaeculinaria.com/wp-content/uploads/2023/03/05163747/Mousse-de-leite-ninho.webp",
@@ -267,7 +267,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 70.00
+                "price": 80.00
               }
             ],
             "imageUrl": "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/369562012750bd46ceaeef5d59a23229.jpg",
@@ -282,7 +282,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 70.00
+                "price": 80.00
               }
             ],
             "imageUrl": "https://img.freepik.com/fotos-premium/delicioso-pave-de-chocolate-da-floresta-negra-com-cerejas-e-chantilly-em-uma-grande-tigela-de-vidro-guarnecido-com-chocolate-picado-cacau-em-po-e-bagas-sobremesa-decadente-indulgente_76014-390.jpg",
@@ -297,7 +297,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 70.00
+                "price": 80.00
               }
             ],
             "imageUrl": "https://catracalivre.com.br/wp-content/uploads/2023/11/cocada-cremosa.jpg",
@@ -312,7 +312,7 @@ export const data: TRestaurant[] = [
             "prices": [
               {
                 "name": "standard",
-                "price": 70.00
+                "price": 80.00
               }
             ],
             "imageUrl": "https://i.panelinha.com.br/i1/228-bk-6392-blog-ayu1901.webp",
